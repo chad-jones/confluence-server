@@ -108,4 +108,3 @@ WORKDIR ${CONFLUENCE_INSTALL}
 
 # Run Atlassian Confluence as a foreground process by default.
 CMD ["/usr/local/bin/dumb-init", "./bin/catalina.sh", "run"]
-
